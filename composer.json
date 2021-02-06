@@ -1,0 +1,20 @@
+{
+    "name": "coborojo/php-yii2-auth",
+    "description": "Auth Library - PHP Yii2",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "firebase/php-jwt": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Nolberto Vilchez",
+            "email": "jnolbertovm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "cuborojo\\yii2\\auth\\": "src"
+        }
+    }
+}
